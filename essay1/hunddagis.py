@@ -12,6 +12,8 @@ class Dog_daycare:
         for i in self.daycare:
             if i.name == name:
                 return i
+        return self
+        print("Didn't find a daycare that goes by that name")
 
     def select_dog(self, name):
         for i in self.dogs:
